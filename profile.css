@@ -1,0 +1,144 @@
+body {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.main {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    height: 550px;
+}
+
+.sidebar a {
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: whitesmoke;
+}
+
+.icon {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.icon span {
+    background: red;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25px;
+}
+
+.icon img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 20px;
+}
+
+.icon:hover {
+    opacity: .7;
+}
+
+.logo {
+    flex: 1;
+    margin-right: 50px;
+    color: #eee;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.notifi-box {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    width: 300px;
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 63px;
+    right: 35px;
+    transition: 1s opacity, 250ms height;
+    box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10000; /* Set a high z-index value to bring it to the front */
+}
+
+.notifi-box h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #999;
+}
+
+.notifi-box h2 span {
+    color: #f00;
+}
+
+.notifi-item {
+    
+        display: flex;
+        
+        border-bottom: 1px solid #eee;
+        padding: 15px 5px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        background-color: lightgray; /* Change the background color */
+        border: 1px solid gray; /* Change the border color */
+        border-radius: 5px; /* Add rounded corners */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    
+}
+
+.notifi-item:hover {
+    background-color: darkgray;
+}
+
+.notifi-item img {
+    display: block;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.notifi-item .text h4 {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.notifi-item .text p {
+    color: black;
+    font-size: 12px;
+}
