@@ -5,4 +5,4 @@ services:
       context: ./web
       dockerfile: Dockerfile
     ports:
-      - ${PORT_WEB}:80
+      - 1090:80

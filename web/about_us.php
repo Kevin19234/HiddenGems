@@ -64,8 +64,9 @@
       <img src="./images/me.png" alt="Kevin" style="width:100%">
       <div class="container">
         <h2>Kevin Parra</h2>
-        <p class="title">Back-end Developer</p>
-        <p>A back-end developer is a software engineer specializing in the server-side development of applications. They focus on designing and implementing the logic, databases, and server infrastructure that enable the functionality of websites or software systems, ensuring seamless communication between the front end and the underlying databases.</p><br>
+        <p class="title">Front End Developeer</p>
+        <p>As a Front-End Developer, I played a pivotal role in crafting the aesthetic and user experience of the website. My contributions were instrumental in the collaborative development of the site's front-end, employing HTML, CSS, and SCSS to construct the interface of the web pages meticulously. Additionally, I was responsible for integrating APIs to enhance the site with dynamic "map" functionalities, enriching the user's interaction and engagement with the platform.
+        </p>
         <p>parraolk@kean.edu</p>
         <p><a href="mailto:parraolk@kean.edu"><button class="button">Contact</button></p>
         <br>
