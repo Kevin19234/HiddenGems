@@ -24,3 +24,22 @@ make the hidden gems of New Jersey on the map for users to see and seek out ente
 - User pages: This is a feature that allows the user to register an account as well as sign into or sign out of one, this allows thems to register themselves into the site and be given more privileges than guest users.
 - Staff login: This feature allows the staff to log into their accounts to monitor the users and the site itself, these pages are different from the user pages becuase the staff pages are only given to staff members so the site will lead them to a different landing page.
 - Contact page: this function was placed for the the users of the site to contact any of the deelopers individually or contact the Administrator of the page.
+
+## Contact 
+Kevin Parra
+- **Email**: parraolk@kean.edu
+- **LinkedIn**: https://www.linkedin.com/in/kevin-parra-5823401b8/
+
+Bria Williams
+- **Email**: wilbria@kean.edu
+
+Nicholas Moffa
+- **Email**: moffan@kean.edu
+
+Michael Sanchez
+- **Email**: sanchem1@kean.edu
+
+## Acknowledgements
+The team would like to thank Dr. Jean Chu, (jchu@kean.edu) who advised us during the making of this project.
+
+---
