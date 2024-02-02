@@ -4,6 +4,9 @@ Hidden Gems is an informative website that uses front-end and back-end developme
 This allows for users to seek out events around the state providing an informative description, location, and name of the events. The purpose of this website was to 
 make the hidden gems of New Jersey on the map for users to see and seek out entertainment for themselves or for group events with friends and family. 
 
+## Documentation
+[Final Report](Final_Report.pdf)
+
 ## Front-End
 - Html: Html is utilized for adding all of the information onto the webpage and semi-strucure how it will look like and function.
 - CSS: This is used for the visual astatic of the website such as the color scheme, photos, effects, and placement of the structure provided by the html code.
