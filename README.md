@@ -5,7 +5,7 @@ This allows for users to seek out events around the state providing an informati
 make the hidden gems of New Jersey on the map for users to see and seek out entertainment for themselves or for group events with friends and family. 
 
 ## Documentation
-[Final Report](web/assets/Final_Report.pdf)
+- [Final Report](web/assets/Final_Report.pdf)
 
 ## Front-End
 - Html: Html is utilized for adding all of the information onto the webpage and semi-strucure how it will look like and function.
