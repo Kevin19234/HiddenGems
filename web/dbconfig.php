@@ -1,7 +1,8 @@
 <?php
-#dbconfig file
-$host = "imc.kean.edu";
-$username = "sanchem1";
-$password = "1126652";
-$dbname = "2023F_sanchem1";
+$dbhost="db";
+$dbuser=$_ENV["MYSQL_USER"];
+$dbpass=$_ENV["MYSQL_PASSWORD"];
+$dbname="HiddenGem";
+$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname)
+    or die("<br> Cannot connect to DB: $dbname on $dbhost");
 ?>

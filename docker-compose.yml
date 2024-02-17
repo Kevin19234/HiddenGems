@@ -6,3 +6,23 @@ services:
       dockerfile: Dockerfile
     ports:
       - 1090:80
+    env_file:
+      - ".env"
+  db:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    ports:
+      - ${PORT_DATABASE}:3306
+    environment:
+      - MYSQL_DATABASE=HiddenGem
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ALLOW_EMPTY_PASSWORD=0
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - ${PORT_PHPMYADMIN}:80
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
