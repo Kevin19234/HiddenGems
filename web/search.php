@@ -8,9 +8,11 @@
 <?php
 include "dbconfig.php";
 include "nav.php";
-
+$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname)
+    or die("<br> Cannot connect to DB: $dbname on $dbhost");
 $keyword = $_GET['search_items'];
 $sql = "SELECT id, title, labels, category, Description,start, predicted_end, venue_name, venue_formatted_address, phq_attendance  from events WHERE title like '%$keyword%' OR venue_formatted_address like '%$keyword%' OR labels like '%$keyword%' OR category like '%$keyword%'";
+
 $result = mysqli_query($con, $sql);
 
 if($result){
